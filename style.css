@@ -1,0 +1,41 @@
+html {
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+}
+
+
+header {
+    text-align: center;
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: beige;
+    display: grid;
+    gap: 15px;
+    margin: 10px auto;
+    width: 90%;
+}
+
+
+.result-place {
+    grid-column: span 3;
+    text-align: center;
+} 
+
+/* .City {
+    
+    overflow: hidden;
+    width: 32%;
+}
+
+.State {
+   
+    overflow: hidden;
+    width: 32%;
+}
+
+.Country {
+
+    overflow: hidden;
+    width: 32%;
+} */
