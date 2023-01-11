@@ -5,31 +5,89 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Zip Code Search</title>
+    <title>More Information</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style2.css" />
     <script defer src="./address.js"></script>
-    <script defer src="./errormsg.js"></script>
+
 
 </head>
 
-<body> 
+<body>
     <!-- This will contain a drop menu to the full address directory to click through -->
-<header>
-        <div class="dropdown">
-            
-            <form>
-                <h1>Full Address Catalog</h1>
-                <button class="dropbtn">Catalog</button>
-                <div class="dropdown-content">
-                    <a href="#"></a>
-                    <a href="#"></a>
-                    <a href="#"></a>
-                </div>
-            </form>
+    <header>
+        <div>
+
+            <form class="webpg-info">
+                <h1>About the Webpage</h1>
+                <p>
+                    This webpage to help find full address information from all over the world via
+                    <strong>[zippopptam.us API](https://www.zippopotam.us/?format=j1)</strong>.
+                    <br>
+
+                <p>
+                    User will recieve the following information as a result:
+                    <form1 class="info-one"></form1>
+                    <br>
+                <p><strong>- city(place name)</strong></p>
+                <p><strong>- state</strong></p>
+                <p><strong>- country</strong></p>
+                <p><strong>- postal code (zip code)</strong></p>
+                <p><strong>- country abbreviation</strong></p>
+
+                </p>
+
+                <main class="instructions">
+                    <h2>How to Search Location?</h2>
+
+                    <p>
+                        <strong>(1)</strong> The user must put in one or more of the following information into the top search engine on
+                        the page next to "What's your location?" to receive valid results:
+
+                        <br>
+                        <strong>- city</strong>
+                        <br>
+                        <strong>- state</strong>
+                        <br>
+                        <strong>- country</strong>
+                        <br>
+                        <strong>- zip code</strong>
+                        <br>
+                        <br>
+                        The two formats to type in the search engine for information to return a full address are:
+                        <br>
+                        <br><strong>country/zip code</strong><br>
+                        <br><strong><u>OR</u></strong><br>
+                        <br><strong>country/state/city</strong><br>
+
+
+                        <br>
+                        <strong>(2)</strong> Click the "Get Address!" and your resutls will appear under the search engine. This
+                        information will be your City, State, Country along with the other given information
+
+                        <br>
+
+                        <br><strong><u>**NOTE**</u></strong><br>
+                        Some locations state and postal code/zipcode details are undefined if the city input
+                        found in other parts of the data.
+                        <strong><u>Ex:</u></strong>When you search by country/state/city the state and postal code/zip code imformation is
+                        undefined due to the city being in other states besides the desired search city.
+                        <br>
+                    </p>
+
+
+                </main>
+
+
+
+
+
+
+        </div>
+        </form>
         </div>
     </header>
 
 
 
 </body>
-   

@@ -17,25 +17,17 @@ header {
 }
 
 
-.result-place {
-    grid-column: span 3;
+h3 {
+
+    text-align: left;
+}
+
+.zipcode-detail {
+    text-decoration: solid;
     text-align: center;
-} 
-
-/* .City {
-    
-    overflow: hidden;
+    background-color: darkgray;
     width: 32%;
+    gap: 15px;
+    overflow: hidden;
+
 }
-
-.State {
-   
-    overflow: hidden;
-    width: 32%;
-}
-
-.Country {
-
-    overflow: hidden;
-    width: 32%;
-} */
