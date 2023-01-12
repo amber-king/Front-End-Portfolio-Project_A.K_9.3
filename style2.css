@@ -1,6 +1,53 @@
-.br{
+/*
+  Google Fonts
+  https://fonts.google.com/specimen/Righteous
+*/
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+
+.br {
     text-decoration: solid;
 }
-.form1{
+
+.form1 {
     text-decoration: solid;
 }
+
+.p1 {
+    text-align: left;
+}
+
+a:hover {
+    color: red;
+}
+
+@media (max-width: 768px) and (max-width: 1279px) {
+
+    header {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .instructions,
+    .info-one,
+    .webpg-info {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+
+}
+
+/* @media (min-width: 768px) {
+    header {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+
+    }
+
+    .instructions,
+    .info-one,
+    .webpg-info {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+} */

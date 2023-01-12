@@ -6,6 +6,7 @@ const newState = document.querySelector(".State")
 const newCountry = document.querySelector(".Country")
 const newZip = document.querySelector(".ZipCode")
 const newCountryAbb = document.querySelector(".CountryAbb")
+const newStateAbb = document.querySelector(".StateAbb")
 const resultInfo = []
 
 // v-- eventlistener for the form section
@@ -39,7 +40,7 @@ function foundAddress(newLoc) {
 
             // v-- created elements for City,State,Country,Zip Code Information when searched
             const searchedCity = document.createElement("p")
-            searchedCity.innerHTML = "City: "+ locationJSON.places[0]["place name"]
+            searchedCity.innerHTML = "City: " + locationJSON.places[0]["place name"]
             card.append(searchedCity)
 
             const searchedState = document.createElement("p")
@@ -50,6 +51,10 @@ function foundAddress(newLoc) {
             const searchedCountry = document.createElement("p")
             searchedCountry.textContent = `Country: ${locationJSON.country}`
             card.append(searchedCountry)
+
+            const searchedStateAbb = document.createElement("p")
+            searchedStateAbb.textContent = "State Abbreviation: " + locationJSON["state abbreviation"]
+            card.append(searchedStateAbb)
 
             const searchedCountryAbb = document.createElement("p")
             searchedCountryAbb.textContent = "Country Abbreviation: " + locationJSON["country abbreviation"]
@@ -74,6 +79,11 @@ function foundAddress(newLoc) {
             countryTitle.setAttribute("class", "card")
             newCountry.append(countryTitle)
 
+            const stateAbbTitle = document.createElement('p')
+            stateAbbTitle.setAttribute("class", "card")
+            newStateAbb.append(stateAbbTitle)
+
+
             const countryAbbTitle = document.createElement('p')
             countryAbbTitle.setAttribute("class", "card")
             newCountryAbb.append(countryTitle)
@@ -82,12 +92,12 @@ function foundAddress(newLoc) {
             zipCodeTitle.setAttribute("class", "card")
             zipCodeTitle.append(newZip)
 
-            card.append(cityTitle, stateTitle, countryTitle, countryAbbTitle, newZip)
+            card.append(cityTitle, stateTitle, countryTitle, stateAbbTitle, countryAbbTitle, newZip)
             mainInfo.append(card)
             resultInfo.push(locationJSON.places.value)
 
 
 
         })
-        .catch((error) => alert("Invalid Input, Format must be as followed: Country/Zip Code or Country/State/City.Some information may be undefined if the location is found within different locations."))
+        .catch((error) => alert("Invalid Input, Format must be as followed: Country/Zip Code or Country/State/City.Some information may be undefined if the city is found within different states or countries."))
 }

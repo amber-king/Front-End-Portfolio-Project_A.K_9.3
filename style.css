@@ -1,9 +1,24 @@
+/*
+  Google Fonts
+  https://fonts.google.com/specimen/Righteous
+*/
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+
+
 html {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: fantasy;
     color: black;
     background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
 }
 
+main.result-place {
+    padding-bottom: 0%;
+    display: flex;
+
+
+
+
+}
 
 header {
     text-align: center;
@@ -20,14 +35,49 @@ header {
 h3 {
 
     text-align: left;
+
 }
 
-.zipcode-detail {
-    text-decoration: solid;
+/* .zipcode-detail {
+
     text-align: center;
-    background-color: darkgray;
-    width: 32%;
-    gap: 15px;
-    overflow: hidden;
+    height: 20px;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+
+} */
+
+.card {
+    
+    text-align: center;
+    height: 20px;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    
+
+
+
+}
+
+
+
+@media (max-width: 768px) and (max-width: 1279px) {
+
+    header {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    main {
+        display: grid;
+        width: 677.6875px;
+        padding: 25px;
+        grid-template-columns: 1fr;
+    }
+
 
 }
