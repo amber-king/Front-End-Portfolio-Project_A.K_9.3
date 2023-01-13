@@ -17,8 +17,7 @@ User will recieve the following information as a result:
 - postal code (zip code)
 - country abbreviation
 - state abbreviation
-- longitude
-- latitude
+
 
 
 
