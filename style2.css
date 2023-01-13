@@ -40,17 +40,3 @@ a:hover {
 
 }
 
-/* @media (min-width: 768px) {
-    header {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-
-    }
-
-    .instructions,
-    .info-one,
-    .webpg-info {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-    }
-} */
