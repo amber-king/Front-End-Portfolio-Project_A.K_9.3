@@ -62,6 +62,15 @@ h3 {
 
 
 }
+.bkgr-img{
+    text-align: center;
+    height: 0px;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    bottom: 300px;
+}
 
 
 
