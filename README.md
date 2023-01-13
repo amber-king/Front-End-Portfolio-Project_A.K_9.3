@@ -17,11 +17,8 @@ User will recieve the following information as a result:
 - country
 - postal code (zip code)
 - country abbreviation
-<<<<<<< HEAD
-=======
 - state abbreviation
 
 
->>>>>>> 22afc6f796b4c822547e41fde9abdbc048c717c1
 
 
