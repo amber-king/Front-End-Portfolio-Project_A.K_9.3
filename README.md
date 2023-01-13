@@ -2,12 +2,13 @@
 
 I desgined this webpage to help find full address information from all over the world via [zippopptam.us API](https://www.zippopotam.us/?format=j1).
 
-The user must put in one  or more of the following information to receive valid results:
+The user must put in one or more of the following information to receive valid results:
 
 - city
 - state
 - country
 - zip code
+
 
 User will recieve the following information as a result:
 
@@ -16,9 +17,5 @@ User will recieve the following information as a result:
 - country
 - postal code (zip code)
 - country abbreviation
-- state abbreviation
-- longitude
-- latitude
-
 
 
