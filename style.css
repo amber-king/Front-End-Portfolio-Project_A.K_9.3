@@ -40,26 +40,30 @@ h3 {
 
 
 .card {
-    
+
     text-align: center;
     height: 20px;
     position: absolute;
     margin: auto;
     left: 0;
     right: 0;
-    
+
 
 
 
 }
-.bkgr-img{
+
+.bkgr-img {
     text-align: center;
     height: 0px;
     position: absolute;
     margin: auto;
     left: 0;
     right: 0;
-    bottom: 300px;
+    bottom: 200px;
+    opacity: 0.5;
+
+
 }
 
 
@@ -71,7 +75,8 @@ h3 {
         grid-template-columns: repeat(3, 1fr);
     }
 
-    main {
+    main,
+    .bkgr-img {
         display: grid;
         width: 677.6875px;
         padding: 25px;
