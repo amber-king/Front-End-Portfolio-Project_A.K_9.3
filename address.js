@@ -111,3 +111,6 @@ function foundAddress(newLoc) {
         //error alert is a pop up window in broswer to inform user of how to type in the input properly to return the closes matching data 
         .catch((error) => alert("Invalid Input, Format must be as followed: Country/Zip Code or Country/State/City.Some information may be undefined if the city is found within different states or countries."))
 }
+
+//calls the standard info to the load page
+foundAddress("US/11238")
